@@ -11,3 +11,13 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(booleanIsLoggedIn) //true
 
 // "" => converted to boolean gives false, "some value" => converted to boolean gives true
+
+console.log(1 + "2") //12
+console.log("1" + 2) //12
+console.log(1 + 2 + "2") //32
+console.log("1" + 2 + 2) //122
+
+//convert the variable to preffered type or to the type of the first variable while doing operations
+
+let gameCounter = 100
+console.log(++gameCounter)
