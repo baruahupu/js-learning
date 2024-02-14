@@ -1,4 +1,4 @@
-//primitive
+//primitive (uses STACK memory)
 
 //symbol : it defines all the variables as unique even if the variables given the same value
 const id = Symbol('123')
@@ -8,7 +8,7 @@ console.log(id == anotherId)
 //bigInt: add n at the last of a number to define it as bigint
 let bigNumber = 65641265454554545n
 
-//non primitive
+//non primitive (uses HEAP memory : whenever a variable is declared in Non Primitive DT, it gives a reference of the heap memory)
 
 //array
 const heros = ["shaktiman", "superman", "spiderman"]
