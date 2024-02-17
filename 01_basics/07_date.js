@@ -1,3 +1,4 @@
+//Date is an object in JS
 let myDate = new Date()
 
 console.log(myDate) //2024-02-17T10:30:41.327Z
