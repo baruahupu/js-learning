@@ -69,3 +69,13 @@ console.log(Object.keys(myObj)) //it gives all the keys in the object in an arra
 console.log(Object.values(myObj)) //it gives all the values in the object in an array
 console.log(Object.entries(myObj)) //it gives all the key:values pairs as array in the object
 console.log(myObj.hasOwnProperty("isLoggedIn")) //it gives all the key:values pairs as array in the object
+
+const course = {
+    courseName: "JS",
+    coursePrice: "999",
+    courseInstructor: "Upashana Baruah"
+}
+
+const {courseInstructor: instructor} = course //deconstruction of an object
+
+console.log(instructor)
